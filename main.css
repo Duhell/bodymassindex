@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#app{
+	border: 1px solid #000;
+	padding: 1.5em;
+	background: rgba(255, 255, 255, 0.8);
+}
+#app > #title{
+	font-size: 1.5rem;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#forms{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+#forms > form > #height, #forms > form > #weight{
+	display: flex;
+	flex-direction: column;
+	font-size: 1.2rem;
+	margin: 20px 0;
+}
+#forms > form > #height > input,#forms > form > #weight > input{
+	width: 100%;
+	height: 40px;
+	padding: 0 2em 0 2em;
+	outline: none;
+	margin-top: 10px;
+}
+#forms > form > button{
+	padding: 1em;
+	cursor: pointer;
+	width: 100%;
+}
+#forms > form > button:hover{
+	background: lightseagreen;
+
+}
